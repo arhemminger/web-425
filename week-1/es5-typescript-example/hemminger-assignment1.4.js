@@ -13,7 +13,6 @@ var lastname = 'Hemminger';
 // myName function
 function myName(firstname, lastname) {
     return 'Hi ' + firstname + ' ' + lastname;
-    5;
 }
 // output
 console.log(myName(firstname, lastname));
