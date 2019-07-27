@@ -14,7 +14,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-seller-info',
   template: `
-    The seller is Andrew Hemminger, id {{ sellerID }}
+    The seller is Andrew Hemminger, id: {{ sellerID }}
   `,
   styles: [`
     host: { background: teal;}

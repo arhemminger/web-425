@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  Child Routes
+; Author: Professor Krasso
+; Date:  27 July 2019
+; Modified by: Andrew Hemminger
+; Description: Assignment 3.3 - Child Routes
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
