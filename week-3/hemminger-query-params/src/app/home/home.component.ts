@@ -9,6 +9,7 @@
 */
 import { Component, OnInit } from '@angular/core';
 
+// template for the home component
 @Component({
   selector: 'app-home',
   template: `
@@ -28,6 +29,7 @@ import { Component, OnInit } from '@angular/core';
   `
   ]
 })
+// config for the home component
 export class HomeComponent implements OnInit {
 
   constructor() { }

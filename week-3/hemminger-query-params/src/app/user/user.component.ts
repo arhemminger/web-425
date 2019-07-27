@@ -32,7 +32,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 // config for the user component
 export class UserComponent implements OnInit {
-  UserId: String;
+  userId: String;
 
   constructor(route: ActivatedRoute) {
     this.userId = route.snapshot.paramMap.get('id');

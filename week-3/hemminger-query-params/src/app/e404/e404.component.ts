@@ -9,6 +9,7 @@
 */
 import { Component, OnInit } from '@angular/core';
 
+// template for the e404 component
 @Component({
   selector: 'app-e404',
   template: `
@@ -29,6 +30,7 @@ import { Component, OnInit } from '@angular/core';
   `
   ]
 })
+// config for the e404 component
 export class E404Component implements OnInit {
 
   constructor() { }
