@@ -14,15 +14,20 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-product-detail',
   template: `
+  <div class="container">
     <div class="product">
       <h1>Details for Product Id: {{ productId }}</h1>
       <router-outlet></router-outlet>
       <p><a [routerLink]="['./seller', sellerId]">Seller Info</a></p>
     </div>
+  </div>
   `,
   styles: [`
+    .container {
+      margin-top: 20px;
+    }
     .product {
-      background-color: grey;
+      background-color: silver;
       border: 3px solid steelblue;
     }
   `
