@@ -16,7 +16,7 @@ import { ActivatedRoute } from '@angular/router';
   template: `
     <div class="container">
       <div class="row">
-        <h2>User Detial for UserId: {{ userId }}</h2>
+        <h2>User Detail for UserId: {{ userId }}</h2>
       </div>
     </div>
   `,
@@ -35,7 +35,7 @@ export class UserComponent implements OnInit {
   UserId: String;
 
   constructor(route: ActivatedRoute) {
-    this.UserId = route.snapshot.paramMap.get('id');
+    this.userId = route.snapshot.paramMap.get('id');
    }
 
   ngOnInit() {
