@@ -10,7 +10,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'home',
+  selector: 'app-home',
   template: `
     <div class="container">
       <h1>Welcome to Guarding Routes assignment 3.3</h1>

@@ -10,7 +10,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'home',
+  selector: 'app-home',
   template: `
     <div class="container">
       <h1 class="home">Please login here</h1>
