@@ -9,6 +9,7 @@
 */
 import { Component, OnInit } from '@angular/core';
 
+// template for login component
 @Component({
   selector: 'app-home',
   template: `
@@ -26,6 +27,7 @@ import { Component, OnInit } from '@angular/core';
   `
   ]
 })
+// configuration for login component
 export class LoginComponent implements OnInit {
 
   constructor() { }

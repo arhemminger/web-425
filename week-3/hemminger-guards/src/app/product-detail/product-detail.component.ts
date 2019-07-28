@@ -10,6 +10,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
+// template for product details component
 @Component({
   selector: 'app-product-detail',
   template: `
@@ -28,6 +29,7 @@ import { FormControl } from '@angular/forms';
   `
   ]
 })
+// configuration for product details component
 export class ProductDetailComponent implements OnInit {
 
   name: FormControl = new FormControl();
