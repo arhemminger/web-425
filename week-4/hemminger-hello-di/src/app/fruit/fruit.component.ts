@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 import { Fruit } from './fruit';
 import { FruitService } from './fruit.service';
 
-// template for fruit component - bootstrap forum
+// template for fruit component - bootstrap form
 @Component({
   selector: 'app-fruit',
   template: `
