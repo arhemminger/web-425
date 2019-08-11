@@ -7,19 +7,16 @@
 ; Description: Assignment 5.3 - Material Cards
 ;===========================================
 */
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { MatButtonModule, MatCardModule, MatFormFieldModule, MatInputModule, MatToolbarModule } from "@angular/material";
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { FormsModule } from '@angular/forms'
+import { MatButtonModule, MatCardModule, MatFormFieldModule, MatToolbarModule, MatInputModule } from "@angular/material";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -28,10 +25,9 @@ import { FormsModule } from '@angular/forms'
     MatButtonModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatInputModule,
-    FormsModule
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
