@@ -1,0 +1,52 @@
+/* Importing prebuilt Angular Material theme */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body { margin: 0; }
+
+.center {
+  margin: 10% auto;
+  text-align: center;
+}
+
+.fullWidth{
+  width: 100%;
+}
+
+.frm-login-header {
+  background-color: rgb(255, 64, 129);
+}
+
+.frm-login-toolbar {
+  background-color: rgb(63, 81, 181);
+  color: seashell;
+}
+
+.frm-login-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.btn-login {
+  background-color: steelblue;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: lightcoral;
+  color: white;
+}
+
+.frm-login-actions {
+  text-align: right;
+}
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.parent { height: 100vh; }
+.left { background-color: dimgray; }
+.right { background-color: lightskyblue; }
