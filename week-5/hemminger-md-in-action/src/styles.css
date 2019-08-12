@@ -47,6 +47,14 @@ body { margin: 0; }
   text-align: center;
 }
 
-.parent { height: 100vh; }
-.left { background-color: dimgray; }
-.right { background-color: lightskyblue; }
+.parent {
+  height: 100vh;
+}
+
+.left { background-color:
+   dimgray;
+  }
+
+.right { background-color:
+   lightskyblue;
+  }
