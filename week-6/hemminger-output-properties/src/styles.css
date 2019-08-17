@@ -1,0 +1,44 @@
+/* Angular material imported style */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+
+body {
+  margin: 0;
+}
+
+.parent {
+  height: 100vh;
+}
+
+.left {
+  background-color: lightcyan;
+}
+
+.right {
+  background-color:lightblue;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  color: aliceblue;
+}
+
+.box {
+  position: relative;
+  left: 20%;
+  top: 25%;
+}
+
+input {
+  height: 30px;
+  width: 25%;
+  font-size: 20px;
+}
+
+.label {
+  border: 1px black solid;
+  width: 25%;
+}
