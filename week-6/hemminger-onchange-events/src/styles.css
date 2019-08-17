@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+/* Angular material imported style */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  margin: 0;
+}
+
+.left {
+  background-color: lightgoldenrodyellow;
+}
+
+.right {
+  background-color:lightcyan;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  color: aliceblue;
+}
+
+.box {
+  position: relative;
+  left: 15%;
+  top: 15%;
+}
+
+input {
+  height: 30px;
+  width: 25%;
+  font-size: 20px;
+}
+
+.parent {
+  height: 100vh;
+}
+
+.outline {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  background-color: lightblue;
+  font-size: 20px;
+}
