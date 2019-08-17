@@ -1,0 +1,39 @@
+/* Angular material imported style */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  margin: 0;
+}
+
+.parent {
+  height: 100vh;
+}
+
+.left { background-color:
+   white;
+}
+
+.right { background-color:
+   lightskyblue;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  color: aliceblue;
+}
+
+.box {
+  position: relative;
+  left: 20%;
+  top: 25%;
+}
+
+input {
+  height: 30px;
+  width: 25%;
+  font-size: 20px;
+}
