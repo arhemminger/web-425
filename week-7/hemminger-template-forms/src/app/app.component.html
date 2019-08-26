@@ -1,0 +1,45 @@
+<!--
+============================================
+; Title:  Template-Driven Forms
+; Author: Professor Krasso
+; Date:  24 August 2019
+; Modified by: Andrew Hemminger
+; Description: Exercise 7.2 - Template-Driven Forms
+;===========================================
+-->
+
+<!-- Angular Material toolbar -->
+<mat-toolbar class="menu" role="header" color="primary">
+    <mat-toolbar-row>
+      <button mat-button class="mat-button">Home</button>
+      <button mat-button class="mat-button">Login</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <!-- Flex layout -->
+<div class="parent">
+  <div class="left" fxFlex="20%"></div>
+
+  <div class="right" fxFlex="80%">
+    <!-- Angular Material forms -->
+    <mat-card class="login-panel frm-login-panel">
+      <mat-card-header class="frm-login-header">
+        <mat-toolbar class="frm-login-toolbar">Login Form</mat-toolbar>
+      </mat-card-header>
+      <br>
+
+      <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+        <div>Username: <input type="text" name="username" ngModel></div>
+        <div>SSN: <input type="text" name="ssn" ngModel></div>
+        <div ngModelGroup="passwordsGroup">
+          <div>Password: <input type="password" name="password" ngModel></div>
+          <div>Confrim Password: <input type="password" name="pconfirm" ngModel></div>
+        </div>
+      </form>
+       <mat-card-actions class="frm-login-actions">
+        <button mat-raised-button class="btn-primary">Submit</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+</div>
