@@ -2,10 +2,14 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body { margin: 0; }
 
+h1 {
+  text-align: center;
+}
+
 .login-panel {
   width: 50%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 120px;
 
 }
 
