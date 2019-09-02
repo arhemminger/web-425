@@ -23,7 +23,7 @@ const composers: Composer[] = [
   { id: 2, firstName: "Wolfgang", lastName: "Mozart"},
   { id: 3, firstName: "Ludwig", lastName: "Beethoven"},
   { id: 4, firstName: "Giuseppe", lastName: "Verdi"},
-  { id: 5, firstName: "Frederic", lastName: "Chopin"},
+  { id: 5, firstName: "Frederic", lastName: "Chopin"}
 ];
 
 // Function returning list of composers
@@ -32,7 +32,7 @@ function getComposers(): Composer[] {
 }
 
 app.get('/', (request, response) => {
-  response.send('The URL for composers is http://localhos:3000/api/composers');
+  response.send('The URL for composers is http://localhost:3000/api/composers');
 });
 
 app.get('/api/composers', (request, response) => {
