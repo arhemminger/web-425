@@ -1,0 +1,40 @@
+/* Importing prebuilt Angular Material theme */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  background-color: darkgray;
+}
+.title {
+  text-align: center;
+  margin: 20px auto;
+}
+.center {
+  text-align: center;
+}
+.boxes {
+  margin: 15px;
+}
+/* Form Styling */
+.frm-services {
+  width: 50%;
+  margin: 0 auto;
+}
+.frm-services-panel {
+  border: 2px solid darkgray;
+}
+.frm-services-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.frm-services-actions {
+  text-align: right;
+}
+/* Global Styling */
+.wrapper {
+  width: 100%;
+ }
+p.total {
+  font-size: 20px;
+  text-align: right;
+}
