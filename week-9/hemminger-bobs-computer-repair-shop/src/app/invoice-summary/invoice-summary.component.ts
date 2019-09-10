@@ -65,7 +65,7 @@ import { Component, OnInit } from '@angular/core';
                 <!-- Total -->
                 <br>
                 <div>
-                  <h4>Total: <span><p style="text-align: right; font-size: 20px; color: blue;">$339.96</p></span></h4>
+                  <h4>Total: <span><p id="total" style="text-align: right; font-size: 20px; color: blue;">$339.96</p></span></h4>
                 </div>
             </section>
           </mat-card-content>

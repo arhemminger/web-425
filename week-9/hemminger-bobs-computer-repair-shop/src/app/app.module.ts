@@ -7,15 +7,24 @@
 ; Description: Assignment 9.3 - Bob's Computer Repair Shop
 ;===========================================
 */
+// Angular imports
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InvoiceSummaryComponent } from './invoice-summary/invoice-summary.component';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { MatButtonModule, MatCheckboxModule, MatCardModule, MatFormFieldModule, MatToolbarModule, MatInputModule } from "@angular/material";
+import { AppRoutingModule } from './app-routing.module';
+//import { FormsModule } from "@angular/forms";    <-- Throwing console error
+import { InvoiceSummaryComponent } from './invoice-summary/invoice-summary.component';
 import { ServicesComponent } from './services/services.component';
+
+// Angular Material imports
+import { MatButtonModule,
+  MatCheckboxModule,
+  MatMenuModule,
+  MatToolbarModule,
+  MatInputModule,
+  MatFormFieldModule,
+  MatCardModule } from "@angular/material";
 
 
 @NgModule({
@@ -26,9 +35,11 @@ import { ServicesComponent } from './services/services.component';
   ],
   imports: [
     BrowserModule,
+   // FormsModule,     <-- Throwing console error
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCheckboxModule,
+    MatMenuModule,
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
